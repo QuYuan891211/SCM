@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="spring-3">
+    <CLASSES>
+      <root url="file://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-aop" />
+      <root url="file://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-core" />
+      <root url="file://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-persistence" />
+      <root url="file://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web" />
+      <root url="file://D:/CS/JavaWeb/WebLibs/spring3.2/springmvc-json-lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-aop" recursive="false" />
+    <jarDirectory url="file://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-core" recursive="false" />
+    <jarDirectory url="file://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-persistence" recursive="false" />
+    <jarDirectory url="file://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web" recursive="false" />
+    <jarDirectory url="file://D:/CS/JavaWeb/WebLibs/spring3.2/springmvc-json-lib" recursive="false" />
+  </library>
+</component>
