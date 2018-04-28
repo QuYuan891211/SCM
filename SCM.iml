@@ -20,5 +20,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.11" level="application_server_libraries" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="mybatis-lib" level="project" />
+    <orderEntry type="library" name="spring3" level="project" />
+    <orderEntry type="library" name="oracle_driver" level="project" />
   </component>
 </module>

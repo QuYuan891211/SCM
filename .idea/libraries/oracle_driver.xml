@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="oracle_driver">
+    <CLASSES>
+      <root url="file://D:/CS/JavaWeb/WebLibs/oracle_driver" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/CS/JavaWeb/WebLibs/oracle_driver" recursive="false" />
+  </library>
+</component>
