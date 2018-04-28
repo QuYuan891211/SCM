@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
 
-@Repository("DeptJDAY70Dao")
+@Repository("deptJDAY70Dao")
 public class DeptJDAY70Dao {
 
     @Resource

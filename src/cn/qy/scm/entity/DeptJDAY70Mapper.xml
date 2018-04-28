@@ -11,6 +11,6 @@
     </resultMap>
 
     <insert id="insert" parameterType="cn.qy.scm.entity.DeptJDAY70">
-        INSERT INTO deptJDAY70(dept_id,dept_namedept_name,dept_phoneNum) VALUES(#{id},#{name},#{phoneNum})
+        insert into deptJDAY70(dept_id,dept_namedept_name,dept_phoneNum) values(#{id},#{name},#{phoneNum})
     </insert>
 </mapper>
