@@ -58,7 +58,7 @@
 
     <!--configure aop-->
 <aop:config>
-    <aop:advisor advice-ref="advisor" pointcut="execution(* cn.qy.scm.dao.impl.*.*(..))"/>
+    <aop:advisor advice-ref="advisor" pointcut="execution(* cn.qy.scm.service.impl.*.*(..))"/>
 </aop:config>
 
     <!--(Spring + mybatis)-->
@@ -67,5 +67,14 @@
     </bean>
 
 
-    <context:component-scan base-package="*"/>
+    <context:component-scan base-package="cn.qy">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:exclude-filter>
+    </context:component-scan>
+
+
+    <!--引入以后报错Request processing failed; nested exception is org.springframework.transaction.-->
+    <!--<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
+        <!--<property name="sqlSessionFactory" ref="sqlSessionFactory"/>-->
+        <!--<property name="basePackage" value="cn.itcast.scm.dao"/>-->
+    <!--</bean>-->
 </beans>
