@@ -10,8 +10,12 @@
         <!--<typeAlias type="" alias=""/>-->
     <!--</typeAliases>-->
 
-    <mappers>
-        <mapper resource="cn/qy/scm/entity/DeptJDAY70Mapper.xml" />
-    </mappers>
+    <!--<mappers>-->
+        <!--<mapper resource="cn/qy/scm/entity/DeptJDAY70Mapper.xml" />-->
+    <!--</mappers>-->
+
+<typeAliases>
+    <package name="cn.qy.scm.entity"></package>
+</typeAliases>
 
 </configuration>

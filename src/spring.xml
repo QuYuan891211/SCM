@@ -40,6 +40,8 @@
     <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
         <property name="configLocation" value="classpath:myBatis-config.xml"></property>
+        <!--配置扫描式加载SQL映射文件,记得去掉mybatis-config配置-->
+        <property name="mapperLocations" value="classpath:cn/qy/scm/dao/*.xml"/>
     </bean>
 
     <!--3. configure transaction-->
