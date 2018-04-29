@@ -1,5 +1,6 @@
 package cn.qy.scm.dao.impl;
 
+import cn.qy.scm.dao.IDeptJDAY70Dao;
 import cn.qy.scm.entity.DeptJDAY70;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import javax.annotation.Resource;
 
 @Repository("deptJDAY70Dao")
-public class DeptJDAY70Dao {
+public class DeptJDAY70Dao implements IDeptJDAY70Dao {
 
     @Resource
     private SqlSessionTemplate sqlSessionTemplate;
