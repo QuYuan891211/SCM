@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.qy.scm.dao.IAccountDao">
+
+    <resultMap type="cn.qy.scm.entity.Account" id="accountMapper">
+        <id property="id" column="acc_id"/>
+        <result property="loginName" column="acc_login"/>
+        <result property="name" column="acc_name"/>
+        <result property="password" column="acc_pass"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="cn.qy.scm.entity.Account">
+        insert into account(acc_id,acc_login,acc_name,acc_pass) values(#{id},#{loginName},#{name},#{password})
+    </insert>
+</mapper>

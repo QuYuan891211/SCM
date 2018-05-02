@@ -1,21 +1,23 @@
 package cn.qy.scm.dao.impl;
 
 import cn.qy.scm.dao.IDeptJDAY70Dao;
+import cn.qy.scm.dao.ISupplierDao;
 import cn.qy.scm.entity.DeptJDAY70;
+import cn.qy.scm.entity.Supplier;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
 
-@Repository("deptJDAY70Dao")
-public class DeptJDAY70Dao implements IDeptJDAY70Dao {
+@Repository("supplierDao")
+public class SupplierDao implements ISupplierDao {
 
     @Resource
     private SqlSessionTemplate sqlSessionTemplate;
 
 
-    public int insert(DeptJDAY70 deptJDAY70) throws Exception {
-        return sqlSessionTemplate.insert("cn.qy.scm.dao.IDeptJDAY70Dao.insert",deptJDAY70);
+    public int insert(Supplier supplier) throws Exception {
+        return sqlSessionTemplate.insert("cn.qy.scm.dao.ISupplierDao.insert",supplier);
     }
 
 }

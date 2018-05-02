@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.qy.scm.dao.ISupplierDao">
+
+    <resultMap type="cn.qy.scm.entity.Supplier" id="supplierMapper">
+        <id property="id" column="sup_id"/>
+        <result property="name" column="sup_name"/>
+        <result property="linkman" column="sup_linkman"/>
+        <result property="phone" column="sup_phone"/>
+        <result property="address" column="sup_address"/>
+        <result property="remark" column="sup_remark"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="cn.qy.scm.entity.Supplier">
+        insert into supplier (sup_id,sup_name,sup_linkman,sup_phone,sup_address,sup_remark) values (#{id},#{name},#{linkman},#{linkman},#{address},#{remark})
+
+    </insert>
+</mapper>
