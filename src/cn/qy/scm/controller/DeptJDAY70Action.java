@@ -20,4 +20,6 @@ public class DeptJDAY70Action extends BaseAction{
         deptJDAY70Service.insert(deptJDAY70);
         return "forward:/JSP/main.jsp";
     }
+
+
 }

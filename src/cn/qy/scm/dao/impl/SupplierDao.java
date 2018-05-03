@@ -22,20 +22,20 @@ public class SupplierDao implements ISupplierDao {
     }
 
     @Override
-    public Supplier selectById(Object o) throws Exception {
-        return sqlSessionTemplate.selectOne("cn.qy.scm.dao.ISupplierDao.selectById",o);
+    public Supplier selectById(Supplier supplier) throws Exception {
+        return sqlSessionTemplate.selectOne("cn.qy.scm.dao.ISupplierDao.selectById",supplier);
     }
 
 
 
     @Override
-    public int deleteById(Object o) throws Exception {
-        return sqlSessionTemplate.delete("cn.qy.scm.dao.ISupplierDao.deleteById",o);
+    public int deleteById(Supplier supplier) throws Exception {
+        return sqlSessionTemplate.delete("cn.qy.scm.dao.ISupplierDao.deleteById",supplier);
     }
 
     @Override
-    public int updateById(Object o) throws Exception {
-        return sqlSessionTemplate.update("cn.qy.scm.dao.ISupplierDao.updateById",o);
+    public int updateById(Supplier supplier) throws Exception {
+        return sqlSessionTemplate.update("cn.qy.scm.dao.ISupplierDao.updateById",supplier);
     }
 
     @Override

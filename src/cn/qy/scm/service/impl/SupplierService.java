@@ -23,18 +23,18 @@ public class SupplierService implements ISupplierService {
     }
 
     @Override
-    public Supplier selectById(Object o) throws Exception {
-        return supplierDao.selectById(o);
+    public Supplier selectById(Supplier supplier) throws Exception {
+        return supplierDao.selectById(supplier);
     }
 
     @Override
-    public int deleteById(Object o) throws Exception {
-        return supplierDao.deleteById(o);
+    public int deleteById(Supplier supplier) throws Exception {
+        return supplierDao.deleteById(supplier);
     }
 
     @Override
-    public int updateById(Object o) throws Exception {
-        return supplierDao.updateById(o);
+    public int updateById(Supplier supplier) throws Exception {
+        return supplierDao.updateById(supplier);
     }
 
     @Override

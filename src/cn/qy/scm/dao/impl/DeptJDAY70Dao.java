@@ -21,20 +21,20 @@ public class DeptJDAY70Dao implements IDeptJDAY70Dao {
     }
 
     @Override
-    public DeptJDAY70 selectById(Object o) throws Exception {
-        return sqlSessionTemplate.selectOne("cn.qy.scm.dao.IDeptJDAY70Dao.selectById",o);
+    public DeptJDAY70 selectById(DeptJDAY70 deptJDAY70) throws Exception {
+        return sqlSessionTemplate.selectOne("cn.qy.scm.dao.IDeptJDAY70Dao.selectById",deptJDAY70);
     }
 
 
 
     @Override
-    public int deleteById(Object o) throws Exception {
-        return sqlSessionTemplate.delete("cn.qy.scm.dao.IDeptJDAY70Dao.deleteById",o);
+    public int deleteById(DeptJDAY70 deptJDAY70) throws Exception {
+        return sqlSessionTemplate.delete("cn.qy.scm.dao.IDeptJDAY70Dao.deleteById",deptJDAY70);
     }
 
     @Override
-    public int updateById(Object o) throws Exception {
-        return sqlSessionTemplate.update("cn.qy.scm.dao.IDeptJDAY70Dao.updateById",o);
+    public int updateById(DeptJDAY70 deptJDAY70) throws Exception {
+        return sqlSessionTemplate.update("cn.qy.scm.dao.IDeptJDAY70Dao.updateById",deptJDAY70);
     }
 
     @Override

@@ -1,0 +1,5 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<link rel="stylesheet" herf="${pageContext.request.contextPath}/themes/icon.css" type="text/css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/themes/default/easyui.css" type="text/css">
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.easyui.min.js"></script>

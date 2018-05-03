@@ -17,7 +17,7 @@
         insert into supplier (sup_id,sup_name,sup_linkman,sup_phone,sup_address,sup_remark) values (#{id},#{name},#{linkman},#{linkman},#{address},#{remark})
 
     </insert>
-    <select id="selectById" parameterType="String" resultMap="supplierMapper">
+    <select id="selectById" parameterType="cn.qy.scm.entity.Supplier" resultMap="supplierMapper">
         SELECT * FROM supplier WHERE sup_id == #{id}
     </select>
 
@@ -25,11 +25,11 @@
         SELECT * FROM supplier
     </select>
 
-    <update id="updateById" parameterType="String">
+    <update id="updateById" parameterType="cn.qy.scm.entity.Supplier">
         update supplier set sup_name = #{name}, sup_phone = #{phoneNum},sup_linkman = #{linkman},sup_address=#{remark},sup_remark=#{remark}  WHERE sup_id =#{id}
     </update>
 
-    <delete id="deleteById" parameterType="String">
+    <delete id="deleteById" parameterType="cn.qy.scm.entity.Supplier">
         DELETE * FROM supplier WHERE sup_id =#{id}
     </delete>
 

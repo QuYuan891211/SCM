@@ -22,20 +22,20 @@ public class AccountDao implements IAccountDao {
     }
 
     @Override
-    public Account selectById(Object o) throws Exception {
-        return sqlSessionTemplate.selectOne("cn.qy.scm.dao.IAccountDao.selectById",o);
+    public Account selectById(Account account) throws Exception {
+        return sqlSessionTemplate.selectOne("cn.qy.scm.dao.IAccountDao.selectById",account);
     }
 
 
 
     @Override
-    public int deleteById(Object o) throws Exception {
-        return sqlSessionTemplate.delete("cn.qy.scm.dao.IAccountDao.deleteById",o);
+    public int deleteById(Account account) throws Exception {
+        return sqlSessionTemplate.delete("cn.qy.scm.dao.IAccountDao.deleteById",account);
     }
 
     @Override
-    public int updateById(Object o) throws Exception {
-        return sqlSessionTemplate.update("cn.qy.scm.dao.IAccountDao.updateById",o);
+    public int updateById(Account account) throws Exception {
+        return sqlSessionTemplate.update("cn.qy.scm.dao.IAccountDao.updateById",account);
     }
 
     @Override
@@ -48,4 +48,8 @@ public class AccountDao implements IAccountDao {
         return sqlSessionTemplate.delete("cn.qy.scm.dao.IAccountDao.deleteAll");
     }
 
+    @Override
+    public List<Account> selectByNameAndPassword(Account account) {
+        return sqlSessionTemplate.selectList("cn.qy.scm.dao.IAccountDao.selectByNameAndPassword",account);
+    }
 }

@@ -25,18 +25,18 @@ public class AccountService implements IAccountService {
     }
 
     @Override
-    public Account selectById(Object o) throws Exception {
-        return accountDao.selectById(o);
+    public Account selectById(Account account) throws Exception {
+        return accountDao.selectById(account);
     }
 
     @Override
-    public int deleteById(Object o) throws Exception {
-        return accountDao.deleteById(o);
+    public int deleteById(Account account) throws Exception {
+        return accountDao.deleteById(account);
     }
 
     @Override
-    public int updateById(Object o) throws Exception {
-        return accountDao.updateById(o);
+    public int updateById(Account account) throws Exception {
+        return accountDao.updateById(account);
     }
 
     @Override
@@ -47,5 +47,10 @@ public class AccountService implements IAccountService {
     @Override
     public int deleteAll() throws Exception {
         return accountDao.deleteAll();
+    }
+
+    @Override
+    public List<Account> selectByNameAndPassword(Account account) {
+        return accountDao.selectByNameAndPassword(account);
     }
 }

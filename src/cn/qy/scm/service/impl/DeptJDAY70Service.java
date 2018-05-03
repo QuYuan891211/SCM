@@ -20,18 +20,18 @@ public class DeptJDAY70Service implements IDeptJDAY70Service {
     }
 
     @Override
-    public DeptJDAY70 selectById(Object o) throws Exception {
-        return deptJDAY70Dao.selectById(o);
+    public DeptJDAY70 selectById(DeptJDAY70 deptJDAY70) throws Exception {
+        return deptJDAY70Dao.selectById(deptJDAY70);
     }
 
     @Override
-    public int deleteById(Object o) throws Exception {
-        return deptJDAY70Dao.deleteById(o);
+    public int deleteById(DeptJDAY70 deptJDAY70) throws Exception {
+        return deptJDAY70Dao.deleteById(deptJDAY70);
     }
 
     @Override
-    public int updateById(Object o) throws Exception {
-        return deptJDAY70Dao.updateById(o);
+    public int updateById(DeptJDAY70 deptJDAY70) throws Exception {
+        return deptJDAY70Dao.updateById(deptJDAY70);
     }
 
     @Override

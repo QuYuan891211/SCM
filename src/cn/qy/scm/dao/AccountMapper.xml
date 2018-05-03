@@ -15,23 +15,27 @@
         insert into account(acc_id,acc_login,acc_name,acc_pass) values(#{id},#{loginName},#{name},#{password})
     </insert>
 
-    <select id="selectById" parameterType="String" resultMap="supplierMapper">
+    <select id="selectById" parameterType="cn.qy.scm.entity.Account" resultMap="accountMapper">
         SELECT * FROM account WHERE acc_id == #{id}
     </select>
 
-    <select id="findAll" resultMap="supplierMapper">
+    <select id="findAll" resultMap="accountMapper">
         SELECT * FROM account
     </select>
 
-    <update id="updateById" parameterType="String">
+    <update id="updateById" parameterType="cn.qy.scm.entity.Account">
         update account set acc_login = #{loginName}, acc_name = #{name},acc_pass = #{password}  WHERE acc_id =#{id}
     </update>
 
-    <delete id="deleteById" parameterType="String">
+    <delete id="deleteById" parameterType="cn.qy.scm.entity.Account">
         DELETE * FROM account WHERE acc_id =#{id}
     </delete>
 
     <delete id="deleteAll">
         DELETE * FROM account
     </delete>
+
+    <select id="selectByNameAndPassword" parameterType="cn.qy.scm.entity.Account" resultMap="accountMapper">
+        SELECT * FROM account WHERE acc_login = #{loginName} AND acc_pass = #{password}
+    </select>
 </mapper>
