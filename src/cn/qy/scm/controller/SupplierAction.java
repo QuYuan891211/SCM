@@ -4,6 +4,7 @@ import cn.qy.scm.entity.Account;
 import cn.qy.scm.entity.Supplier;
 import cn.qy.scm.service.IAccountService;
 import cn.qy.scm.service.ISupplierService;
+import org.codehaus.jackson.map.Serializers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -11,7 +12,7 @@ import javax.annotation.Resource;
 
 @Controller
 @RequestMapping(value = "/supplier")
-public class SupplierAction {
+public class SupplierAction extends BaseAction{
     @Resource
     private ISupplierService supplierService;
 

@@ -14,4 +14,24 @@
     <insert id="insert" parameterType="cn.qy.scm.entity.Account">
         insert into account(acc_id,acc_login,acc_name,acc_pass) values(#{id},#{loginName},#{name},#{password})
     </insert>
+
+    <select id="selectById" parameterType="String" resultMap="supplierMapper">
+        SELECT * FROM account WHERE acc_id == #{id}
+    </select>
+
+    <select id="findAll" resultMap="supplierMapper">
+        SELECT * FROM account
+    </select>
+
+    <update id="updateById" parameterType="String">
+        update account set acc_login = #{loginName}, acc_name = #{name},acc_pass = #{password}  WHERE acc_id =#{id}
+    </update>
+
+    <delete id="deleteById" parameterType="String">
+        DELETE * FROM account WHERE acc_id =#{id}
+    </delete>
+
+    <delete id="deleteAll">
+        DELETE * FROM account
+    </delete>
 </mapper>

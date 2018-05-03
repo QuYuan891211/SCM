@@ -4,6 +4,6 @@ import cn.qy.scm.entity.Account;
 import cn.qy.scm.entity.DeptJDAY70;
 import cn.qy.scm.entity.Supplier;
 
-public interface ISupplierDao {
-    int insert(Supplier supplier) throws Exception;
+public interface ISupplierDao extends BaseDao<Supplier> {
+
 }

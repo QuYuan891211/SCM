@@ -11,6 +11,7 @@ import com.sun.org.apache.bcel.internal.generic.IADD;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service("accountService")
 public class AccountService implements IAccountService {
@@ -21,5 +22,30 @@ public class AccountService implements IAccountService {
     public int insert(Account account) throws Exception {
         return accountDao.insert(account);
 
+    }
+
+    @Override
+    public Account selectById(Object o) throws Exception {
+        return accountDao.selectById(o);
+    }
+
+    @Override
+    public int deleteById(Object o) throws Exception {
+        return accountDao.deleteById(o);
+    }
+
+    @Override
+    public int updateById(Object o) throws Exception {
+        return accountDao.updateById(o);
+    }
+
+    @Override
+    public List<Account> findAll() throws Exception {
+        return accountDao.findAll();
+    }
+
+    @Override
+    public int deleteAll() throws Exception {
+        return accountDao.deleteAll();
     }
 }

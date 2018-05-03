@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 
 @Controller
 @RequestMapping(value = "/account")
-public class AccountAction {
+public class AccountAction extends BaseAction{
     @Resource
     private IAccountService accountService;
 

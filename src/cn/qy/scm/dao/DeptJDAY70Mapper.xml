@@ -13,4 +13,24 @@
     <insert id="insert" parameterType="cn.qy.scm.entity.DeptJDAY70">
         insert into deptJDAY70(dept_id,dept_namedept_name,dept_phoneNum) values(#{id},#{name},#{phoneNum})
     </insert>
+
+    <select id="selectById" parameterType="String" resultMap="deptMapper">
+        SELECT * FROM deptJDAY70 WHERE dept_id == #{id}
+    </select>
+
+    <select id="findAll" resultMap="deptMapper">
+        SELECT * FROM deptJDAY70
+    </select>
+
+    <update id="updateById" parameterType="String">
+        update deptJDAY70 set dept_namedept_name = #{name}, dept_phoneNum = #{phoneNum} WHERE dept_id =#{id}
+    </update>
+
+    <delete id="deleteById" parameterType="String">
+        DELETE * FROM deptJDAY70 WHERE dept_id =#{id}
+    </delete>
+
+    <delete id="deleteAll">
+        DELETE * FROM deptJDAY70
+    </delete>
 </mapper>

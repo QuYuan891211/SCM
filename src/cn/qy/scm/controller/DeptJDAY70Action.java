@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 
 @Controller
 @RequestMapping(value = "/dept")
-public class DeptJDAY70Action {
+public class DeptJDAY70Action extends BaseAction{
     @Resource
     private IDeptJDAY70Service deptJDAY70Service;
 
