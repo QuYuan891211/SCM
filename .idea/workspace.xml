@@ -7,344 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5b2e63c-96ec-47b4-a425-69a0929f5d72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/goods/GoodsList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCM.iml" afterPath="$PROJECT_DIR$/SCM.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/index.jsp" afterPath="$PROJECT_DIR$/WebRoot/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/AccountMapper.xml" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/AccountMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/DeptJDAY70Mapper.xml" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/DeptJDAY70Mapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/IAccountDao.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/IAccountDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/DeptJDAY70Dao.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/DeptJDAY70Dao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/SupplierDao.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/SupplierDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/BaseService.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/BaseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/IAccountService.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/IAccountService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/JSP/main.jsp" afterPath="$PROJECT_DIR$/WebRoot/JSP/main.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/asm-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/asm-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/asm-3.3.1.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/asm-3.3.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.2.1.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/c3p0-0.9.2.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-oracle-thin-extras-0.9.2.1.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/c3p0-oracle-thin-extras-0.9.2.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/cglib-2.2.2.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/cglib-2.2.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-dbutils-1.7.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-asl-1.9.11.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jackson-core-asl-1.9.11.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-mapper-asl-1.9.11.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jackson-mapper-asl-1.9.11.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.16.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/log4j-1.2.16.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.1.1.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mybatis-3.1.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-1.2.0.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mybatis-spring-1.2.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/ojdbc5.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/ojdbc5.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.transaction-3.2.2.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.transaction-3.2.2.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-aop-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-context-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-core-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-expression-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-orm-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-test-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/common/common.jspf" afterPath="$PROJECT_DIR$/WebRoot/common/common.jspf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/WebRoot/test.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/js/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/WebRoot/js/jquery-1.10.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/js/jquery.easyui.min.js" afterPath="$PROJECT_DIR$/WebRoot/js/jquery.easyui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/accordion.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/accordion.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/calendar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/calendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/combo.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/combo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/combobox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/combobox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/datagrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/datagrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/datalist.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/datalist.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/datebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/datebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/dialog.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/dialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/easyui.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/easyui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/filebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/filebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/accordion_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/blank.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/calendar_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/combo_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/combo_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/datagrid_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/layout_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/linkbutton_bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/loading.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/menu_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/menu_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/messager_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/messager_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/pagination_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/pagination_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/panel_tools.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/panel_tools.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/searchbox_button.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/slider_handle.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/slider_handle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/spinner_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/tabs_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/tabs_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/tree_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/tree_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/WebRoot/themes/black/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/layout.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/layout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/linkbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/linkbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/menu.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/menu.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/menubutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/menubutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/messager.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/messager.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/numberbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/numberbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/pagination.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/pagination.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/panel.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/panel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/progressbar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/progressbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/propertygrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/propertygrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/searchbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/searchbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/slider.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/slider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/spinner.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/spinner.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/splitbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/splitbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/switchbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/switchbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/tabs.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/tabs.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/textbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/textbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/tooltip.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/tooltip.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/tree.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/tree.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/validatebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/validatebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/black/window.css" afterPath="$PROJECT_DIR$/WebRoot/themes/black/window.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/accordion.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/accordion.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/calendar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/calendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/combo.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/combo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/combobox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/combobox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/datagrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/datagrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/datalist.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/datalist.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/datebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/datebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/dialog.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/dialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/easyui.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/easyui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/filebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/filebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/accordion_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/blank.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/calendar_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/combo_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/combo_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/datagrid_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/layout_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/linkbutton_bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/loading.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/menu_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/menu_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/messager_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/messager_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/pagination_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/pagination_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/panel_tools.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/panel_tools.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/searchbox_button.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/slider_handle.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/slider_handle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/spinner_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/tabs_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/tabs_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/tree_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/tree_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/layout.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/layout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/linkbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/linkbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/menu.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/menu.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/menubutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/menubutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/messager.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/messager.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/numberbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/numberbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/pagination.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/pagination.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/panel.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/panel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/progressbar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/progressbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/propertygrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/propertygrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/searchbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/searchbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/slider.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/slider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/spinner.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/spinner.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/splitbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/splitbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/switchbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/switchbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/tabs.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/tabs.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/textbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/textbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/tooltip.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/tooltip.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/tree.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/tree.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/validatebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/validatebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/bootstrap/window.css" afterPath="$PROJECT_DIR$/WebRoot/themes/bootstrap/window.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/color.css" afterPath="$PROJECT_DIR$/WebRoot/themes/color.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/accordion.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/accordion.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/calendar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/calendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/combo.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/combo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/combobox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/combobox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/datagrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/datagrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/datalist.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/datalist.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/datebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/datebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/dialog.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/dialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/easyui.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/easyui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/filebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/filebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/accordion_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/blank.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/calendar_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/combo_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/combo_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/datagrid_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/layout_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/linkbutton_bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/loading.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/menu_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/menu_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/messager_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/messager_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/pagination_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/pagination_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/panel_tools.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/panel_tools.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/searchbox_button.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/slider_handle.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/slider_handle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/spinner_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/tabs_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/tabs_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/tree_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/tree_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/WebRoot/themes/default/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/layout.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/layout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/linkbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/linkbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/menu.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/menu.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/menubutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/menubutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/messager.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/messager.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/numberbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/numberbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/pagination.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/pagination.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/panel.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/panel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/progressbar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/progressbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/propertygrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/propertygrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/searchbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/searchbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/slider.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/slider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/spinner.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/spinner.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/splitbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/splitbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/switchbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/switchbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/tabs.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/tabs.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/textbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/textbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/tooltip.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/tooltip.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/tree.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/tree.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/validatebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/validatebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/default/window.css" afterPath="$PROJECT_DIR$/WebRoot/themes/default/window.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/accordion.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/accordion.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/calendar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/calendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/combo.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/combo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/combobox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/combobox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/datagrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/datagrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/datalist.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/datalist.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/datebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/datebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/dialog.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/dialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/easyui.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/easyui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/filebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/filebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/accordion_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/blank.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/calendar_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/combo_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/combo_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/datagrid_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/layout_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/linkbutton_bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/loading.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/menu_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/menu_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/messager_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/messager_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/pagination_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/pagination_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/panel_tools.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/panel_tools.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/searchbox_button.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/slider_handle.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/slider_handle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/spinner_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/tabs_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/tabs_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/tree_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/tree_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/layout.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/layout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/linkbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/linkbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/menu.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/menu.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/menubutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/menubutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/messager.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/messager.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/numberbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/numberbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/pagination.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/pagination.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/panel.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/panel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/progressbar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/progressbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/propertygrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/propertygrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/searchbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/searchbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/slider.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/slider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/spinner.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/spinner.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/splitbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/splitbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/switchbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/switchbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/tabs.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/tabs.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/textbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/textbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/tooltip.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/tooltip.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/tree.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/tree.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/validatebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/validatebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/gray/window.css" afterPath="$PROJECT_DIR$/WebRoot/themes/gray/window.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icon.css" afterPath="$PROJECT_DIR$/WebRoot/themes/icon.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/back.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/back.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/blank.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/cancel.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/cancel.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/clear.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/clear.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/cut.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/cut.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/edit_add.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/edit_add.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/edit_remove.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/edit_remove.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/filesave.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/filesave.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/filter.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/filter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/help.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/help.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/large_chart.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/large_chart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/large_clipart.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/large_clipart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/large_picture.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/large_picture.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/large_shapes.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/large_shapes.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/large_smartart.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/large_smartart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/lock.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/lock.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/man.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/man.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/mini_add.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/mini_add.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/mini_edit.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/mini_edit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/mini_refresh.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/mini_refresh.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/more.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/more.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/no.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/no.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/ok.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/ok.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/pencil.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/pencil.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/print.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/print.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/redo.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/redo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/reload.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/reload.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/search.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/search.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/sum.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/sum.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/tip.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/tip.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/icons/undo.png" afterPath="$PROJECT_DIR$/WebRoot/themes/icons/undo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/accordion.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/accordion.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/calendar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/calendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/combo.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/combo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/combobox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/combobox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/datagrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/datagrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/datalist.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/datalist.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/datebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/datebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/dialog.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/dialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/easyui.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/easyui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/filebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/filebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/accordion_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/blank.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/calendar_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/combo_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/combo_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/datagrid_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/datebox_arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/layout_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/layout_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/linkbutton_bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/loading.gif" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/menu_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/menu_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/messager_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/messager_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/pagination_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/pagination_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/panel_tools.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/panel_tools.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/searchbox_button.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/searchbox_button.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/slider_handle.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/slider_handle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/spinner_arrows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/tabs_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/tabs_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/tree_icons.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/tree_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/images/validatebox_warning.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/layout.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/layout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/linkbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/linkbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/menu.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/menu.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/menubutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/menubutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/messager.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/messager.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/numberbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/numberbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/pagination.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/pagination.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/panel.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/panel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/progressbar.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/progressbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/propertygrid.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/propertygrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/searchbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/searchbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/slider.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/slider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/spinner.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/spinner.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/splitbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/splitbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/switchbutton.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/switchbutton.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/tabs.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/tabs.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/textbox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/textbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/tooltip.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/tooltip.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/tree.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/tree.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/validatebox.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/validatebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/metro/window.css" afterPath="$PROJECT_DIR$/WebRoot/themes/metro/window.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/themes/mobile.css" afterPath="$PROJECT_DIR$/WebRoot/themes/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WebRoot/JSP/main.jsp" afterPath="$PROJECT_DIR$/WebRoot/main.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -356,94 +28,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
+      <file leaf-file-name="SupplierList.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="120" column="32" lean-forward="true" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java">
+      <file leaf-file-name="edit_remove.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/edit_remove.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filesave.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/filesave.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/redo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SupplierDatagrid.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="52" column="67" lean-forward="false" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+            <state relative-caret-position="390">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/goods/GoodsList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://D:/CS/JavaWeb/JavaWebVideo/day71-项目2.2(讲半天练半天)/scm32/scm32/WebRoot/WEB-INF/main/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="27" column="131" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="131" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AccountAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java">
+        <entry file="file://D:/CS/JavaWeb/JavaWebVideo/day71-项目2.2(讲半天练半天)/scm32/scm32/src/cn/itcast/scm/action/AccountAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="true">
-        <entry file="jar://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="1380">
+              <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="52" column="95" lean-forward="false" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/AccountMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="37" column="106" lean-forward="false" selection-start-line="37" selection-start-column="106" selection-end-line="37" selection-end-column="106" />
-              <folding>
-                <marker date="1525339703227" expanded="true" signature="574:676" ph="insert into account... " />
-                <marker date="1525339703227" expanded="true" signature="796:839" ph="SELECT * FRO... account" />
-                <marker date="1525339703227" expanded="true" signature="915:936" ph="SELECT * FRO... account" />
-                <marker date="1525339703227" expanded="true" signature="1030:1137" ph="update accou... " />
-                <marker date="1525339703227" expanded="true" signature="1478:1557" ph="SELECT * FRO... account" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/test.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="37" column="59" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#679#680#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -494,9 +155,6 @@
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/IDeptJDAY70Dao.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/service/IDeptJDAY70Service.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/IAccountDao.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java" />
@@ -512,9 +170,18 @@
         <option value="$PROJECT_DIR$/web/JSP/login.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/common/common.jspf" />
-        <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/SupplierList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/GoodsList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/goods/GoodsList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/main.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp" />
       </list>
     </option>
   </component>
@@ -555,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -655,20 +323,41 @@
               <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCM" type="462c0819:PsiDirectoryNode" />
               <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCM" type="462c0819:PsiDirectoryNode" />
               <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCM" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCM" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SCM" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="supplier" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -696,6 +385,8 @@
       <recent name="cn.qy.scm.dao.impl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebProjects\qy\IdeaProjects\SCM\WebRoot\WEB-INF\jsp\goods" />
+      <recent name="D:\WebProjects\qy\IdeaProjects\SCM\WebRoot\WEB-INF\jsp\supplier" />
       <recent name="D:\WebProjects\qy\IdeaProjects\SCM\WebRoot" />
       <recent name="D:\WebProjects\qy\IdeaProjects\SCM\web" />
       <recent name="D:\WebProjects\qy\IdeaProjects\SCM\src\cn\qy\scm\dao" />
@@ -734,7 +425,7 @@
       <envs />
     </configuration>
     <configuration name="SCM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.86" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SCM/index.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SCM/main.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SCM:war exploded">
@@ -1012,7 +703,8 @@
       <workItem from="1524960516975" duration="1263000" />
       <workItem from="1525021724518" duration="1111000" />
       <workItem from="1525028989849" duration="2480000" />
-      <workItem from="1525148732705" duration="40114000" />
+      <workItem from="1525148732705" duration="55419000" />
+      <workItem from="1525518598385" duration="3923000" />
     </task>
     <servers />
   </component>
@@ -1049,7 +741,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79414000" />
+    <option name="totallyTimeSpent" value="98642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1065,20 +757,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40870488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40870488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26433122" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26433122" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1086,6 +777,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1099,13 +791,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java</url>
-          <line>29</line>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java</url>
-          <line>30</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -1115,65 +807,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/DeptJDAY70.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/CS/JavaWeb/JavaWebVideo/day70-项目2.1(讲半天练半天)/scm32/src/cn/itcast/scm/action/DeptAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripts/jquery/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripts/easyui/plugins/jquery.form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aa.java" />
     <entry file="file://$PROJECT_DIR$/src/mbatis-config.tld" />
     <entry file="file://$PROJECT_DIR$/../My_mbatis/src/db.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1183,13 +816,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/springmvc-scm" />
-    <entry file="file://$PROJECT_DIR$/web/scripts/easyui/jquery.easyui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/easyui/jquery.easyui.min.js" />
     <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/resources/db.propertie">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1202,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
           <caret line="49" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,33 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1284,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,14 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1317,24 +905,6 @@
         <state relative-caret-position="210">
           <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1377,14 +947,6 @@
             <element signature="imports" expanded="true" />
             <marker date="1525314238011" expanded="true" signature="500:540" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1441,14 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/JSP/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1485,8 +1039,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="52" column="67" lean-forward="false" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#679#680#0" expanded="true" />
+            <marker date="1525339703227" expanded="true" signature="574:676" ph="insert into account... " />
+            <marker date="1525339703227" expanded="true" signature="796:839" ph="SELECT * FRO... account" />
+            <marker date="1525339703227" expanded="true" signature="915:936" ph="SELECT * FRO... account" />
+            <marker date="1525339703227" expanded="true" signature="1030:1137" ph="update accou... " />
+            <marker date="1525339703227" expanded="true" signature="1478:1557" ph="SELECT * FRO... account" />
           </folding>
         </state>
       </provider>
@@ -1501,50 +1074,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/AccountMapper.xml">
+    <entry file="jar://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="37" column="106" lean-forward="false" selection-start-line="37" selection-start-column="106" selection-end-line="37" selection-end-column="106" />
-          <folding>
-            <marker date="1525339703227" expanded="true" signature="574:676" ph="insert into account... " />
-            <marker date="1525339703227" expanded="true" signature="796:839" ph="SELECT * FRO... account" />
-            <marker date="1525339703227" expanded="true" signature="915:936" ph="SELECT * FRO... account" />
-            <marker date="1525339703227" expanded="true" signature="1030:1137" ph="update accou... " />
-            <marker date="1525339703227" expanded="true" signature="1478:1557" ph="SELECT * FRO... account" />
-          </folding>
+        <state relative-caret-position="369">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="52" column="67" lean-forward="false" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        <state relative-caret-position="237">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/CS/JavaWeb/JavaWebVideo/day71-项目2.2(讲半天练半天)/scm32/scm32/src/cn/itcast/scm/action/AccountAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="1380">
+          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://D:/CS/JavaWeb/JavaWebVideo/day71-项目2.2(讲半天练半天)/scm32/scm32/WebRoot/WEB-INF/main/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="810">
+          <caret line="27" column="131" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/goods/GoodsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/edit_remove.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/redo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/filesave.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="120" column="32" lean-forward="true" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
           <folding />
         </state>
       </provider>

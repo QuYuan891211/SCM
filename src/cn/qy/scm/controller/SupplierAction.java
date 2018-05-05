@@ -20,6 +20,6 @@ public class SupplierAction extends BaseAction{
     public String insert(Supplier supplier) throws Exception {
         supplier.setId();
         supplierService.insert(supplier);
-        return "forward:/JSP/main.jsp";
+        return "forward:/main.jsp";
     }
 }

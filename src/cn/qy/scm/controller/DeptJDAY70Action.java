@@ -18,7 +18,7 @@ public class DeptJDAY70Action extends BaseAction{
     public String insert(DeptJDAY70 deptJDAY70) throws Exception {
         deptJDAY70.setId();
         deptJDAY70Service.insert(deptJDAY70);
-        return "forward:/JSP/main.jsp";
+        return "forward:/main.jsp";
     }
 
 

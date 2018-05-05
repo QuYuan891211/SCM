@@ -43,7 +43,7 @@
                 $("#loginForm").form("enableValidation");
                 //validate方法:进行form表单字段的验证，通过返回true
                 if($("#loginForm").form("validate")){
-                    alert("login");
+//                    alert("login");
                     //$("#ff").get(0).submit();
                     $("#loginForm").submit();
 
