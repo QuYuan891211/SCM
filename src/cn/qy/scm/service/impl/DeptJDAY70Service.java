@@ -2,7 +2,9 @@ package cn.qy.scm.service.impl;
 
 import cn.qy.scm.dao.IDeptJDAY70Dao;
 import cn.qy.scm.entity.DeptJDAY70;
+import cn.qy.scm.entity.Pagination;
 import cn.qy.scm.service.IDeptJDAY70Service;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -11,7 +13,7 @@ import java.util.List;
 @Service("deptJDAY70Service")
 public class DeptJDAY70Service implements IDeptJDAY70Service {
 
-    @Resource
+    @Autowired
     private IDeptJDAY70Dao deptJDAY70Dao;
     @Override
     public int insert(DeptJDAY70 deptJDAY70) throws Exception {
@@ -42,5 +44,10 @@ public class DeptJDAY70Service implements IDeptJDAY70Service {
     @Override
     public int deleteAll() throws Exception {
         return deptJDAY70Dao.deleteAll();
+    }
+
+    @Override
+    public Pagination<DeptJDAY70> Pagination(Pagination pagination) throws Exception {
+        return null;
     }
 }

@@ -5,4 +5,5 @@ import cn.qy.scm.entity.Supplier;
 
 public interface ISupplierService extends BaseService<Supplier> {
 
+
 }

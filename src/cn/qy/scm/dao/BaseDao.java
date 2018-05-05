@@ -1,5 +1,7 @@
 package cn.qy.scm.dao;
 
+import cn.qy.scm.entity.Pagination;
+
 import java.util.List;
 
 public interface BaseDao<T> {
@@ -15,4 +17,9 @@ public interface BaseDao<T> {
     List<T> findAll() throws Exception;
     //删除全部
     int deleteAll() throws Exception;
+
+    List<T> pagination(Pagination<T> pagination) throws Exception;
+
+    int count(Pagination<T> page) throws Exception;
+
 }

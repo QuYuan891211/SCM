@@ -75,8 +75,8 @@
 
 
     <!--引入以后报错Request processing failed; nested exception is org.springframework.transaction.-->
-    <!--<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
-        <!--<property name="sqlSessionFactory" ref="sqlSessionFactory"/>-->
-        <!--<property name="basePackage" value="cn.itcast.scm.dao"/>-->
-    <!--</bean>-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--<property name="sqlSessionFactoryBeanName" value="sessionFactory"></property>-->
+        <property name="basePackage" value="cn.qy.scm.dao"/>
+    </bean>
 </beans>

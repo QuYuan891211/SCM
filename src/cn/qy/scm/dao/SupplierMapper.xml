@@ -36,4 +36,24 @@
     <delete id="deleteAll">
         DELETE * FROM supplier
     </delete>
+
+
+    <select id="pagination" parameterType="cn.qy.scm.entity.Pagination" resultMap="supplierMapper" >
+        SELECT * FROM (SELECT S.*, ROWNUM R FROM (select * FROM supplier
+        <where>
+            <if test="keywords != null">
+                and sup_name LIKE #{keywords}
+            </if>
+        </where>
+        ) S WHERE ROWNUM &lt;= #{startNext} + #{rows} ) WHERE R >= #{startNext}+1
+    </select>
+
+    <select id="count" parameterType="cn.qy.scm.entity.Pagination" resultType="int">
+        SELECT COUNT (1) FROM supplier
+        <where>
+            <if test="keywords != null">
+                and sup_name LIKE #{keywords}
+            </if>
+        </where>
+    </select>
 </mapper>

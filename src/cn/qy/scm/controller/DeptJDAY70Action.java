@@ -1,6 +1,5 @@
 package cn.qy.scm.controller;
 
-import cn.qy.scm.dao.impl.DeptJDAY70Dao;
 import cn.qy.scm.entity.DeptJDAY70;
 import cn.qy.scm.service.IDeptJDAY70Service;
 import org.springframework.stereotype.Controller;

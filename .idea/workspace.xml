@@ -7,16 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5b2e63c-96ec-47b4-a425-69a0929f5d72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/goods/GoodsList.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/qy/scm/entity/Pagination.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/DeptJDAY70Dao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/SupplierDao.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/index.jsp" afterPath="$PROJECT_DIR$/WebRoot/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebRoot/JSP/main.jsp" afterPath="$PROJECT_DIR$/WebRoot/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml" afterPath="$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/BaseService.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/BaseService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java" afterPath="$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring.xml" afterPath="$PROJECT_DIR$/src/spring.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,85 +32,163 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="Pagination.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/Pagination.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="210">
+                    <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <element signature="e#891#892#0" expanded="true" />
+                      <element signature="e#918#919#0" expanded="true" />
+                      <element signature="e#959#960#0" expanded="true" />
+                      <element signature="e#991#992#0" expanded="true" />
+                      <element signature="e#1024#1025#0" expanded="true" />
+                      <element signature="e#1051#1052#0" expanded="true" />
+                      <element signature="e#1092#1093#0" expanded="true" />
+                      <element signature="e#1124#1125#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="Supplier.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/Supplier.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="240">
+                    <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SupplierList.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="120" column="32" lean-forward="true" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_remove.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/edit_remove.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filesave.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/filesave.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/redo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SupplierDatagrid.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/goods/GoodsList.jsp">
+      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://D:/CS/JavaWeb/JavaWebVideo/day71-项目2.2(讲半天练半天)/scm32/scm32/WebRoot/WEB-INF/main/main.jsp">
+      <file leaf-file-name="DeptJDAY70Service.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="27" column="131" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="131" />
+            <state relative-caret-position="330">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1525532863815" expanded="true" signature="600:640" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SupplierService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://D:/CS/JavaWeb/JavaWebVideo/day71-项目2.2(讲半天练半天)/scm32/scm32/src/cn/itcast/scm/action/AccountAction.java">
+      <file leaf-file-name="ISupplierDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/ISupplierDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
+      <file leaf-file-name="SupplierList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="591">
+              <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SupplierAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#1299#1314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web/spring-webmvc-3.2.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SupplierMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+              <folding>
+                <element signature="e#1916#1920#0" expanded="true" />
+                <marker date="1525536044375" expanded="true" signature="690:839" ph="insert into supplier... " />
+                <marker date="1525536044375" expanded="true" signature="961:1005" ph="SELECT * FRO... supplier" />
+                <marker date="1525536044375" expanded="true" signature="1082:1104" ph="SELECT * FRO... supplier" />
+                <marker date="1525536044375" expanded="true" signature="1199:1351" ph="update suppl... " />
+                <marker date="1525536044375" expanded="true" signature="1688:1915" ph="SELECT * FRO... *" />
+                <marker date="1525536044375" expanded="true" signature="1688:1944" ph="SELECT * FRO... *" />
+                <marker date="1525536044375" expanded="true" signature="1688:1958" ph="SELECT * FRO... *" />
+                <marker date="1525536044375" expanded="true" signature="1688:1970" ph="SELECT * FRO... *" />
+                <marker date="1525536044375" expanded="true" signature="1688:1972" ph="SELECT * FRO... *" />
+                <marker date="1525536044375" expanded="true" signature="1703:1915" ph="SELECT S.*, *" />
+                <marker date="1525536044375" expanded="true" signature="1730:1752" ph="select * FRO... supplier" />
+                <marker date="1525536044375" expanded="true" signature="2081:2111" ph="SELECT COUNT... supplier" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,8 +200,8 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -144,7 +228,6 @@
         <option value="$PROJECT_DIR$/src/cn/qy/scm/entity/DeptJDAY70Mapper.xml" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/service/IDeptJDAY70Seervice.java" />
         <option value="$PROJECT_DIR$/src/springMVC.xml" />
-        <option value="$PROJECT_DIR$/src/spring.xml" />
         <option value="$PROJECT_DIR$/src/myBatis-config.xml" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/sql/Oracle.sql" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/entity/Account.java" />
@@ -154,25 +237,14 @@
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/ISupplierDao.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/IDeptJDAY70Dao.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/service/IDeptJDAY70Service.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/IAccountDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/DeptJDAY70Dao.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/DeptJDAY70Mapper.xml" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/SupplierDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/service/IAccountService.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java" />
         <option value="$PROJECT_DIR$/web/JSP/login.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/common/common.jspf" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/AccountMapper.xml" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/DeptJDAY70Action.java" />
-        <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/AccountAction.java" />
         <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
         <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/BaseAction.java" />
@@ -181,7 +253,20 @@
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/goods/GoodsList.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/main.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/DeptJDAY70Dao.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/impl/SupplierDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java" />
+        <option value="$PROJECT_DIR$/src/spring.xml" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/entity/Pagination.java" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml" />
       </list>
     </option>
   </component>
@@ -199,8 +284,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="587" />
-    <option name="y" value="94" />
+    <option name="x" value="300" />
+    <option name="y" value="48" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -283,8 +368,7 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="qy" type="462c0819:PsiDirectoryNode" />
               <item name="scm" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
@@ -318,19 +402,6 @@
               <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SCM" type="462c0819:PsiDirectoryNode" />
               <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCM" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SCM" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SCM" type="b2602c69:ProjectViewProjectNode" />
@@ -704,7 +775,7 @@
       <workItem from="1525021724518" duration="1111000" />
       <workItem from="1525028989849" duration="2480000" />
       <workItem from="1525148732705" duration="55419000" />
-      <workItem from="1525518598385" duration="3923000" />
+      <workItem from="1525518598385" duration="16654000" />
     </task>
     <servers />
   </component>
@@ -741,11 +812,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98642000" />
+    <option name="totallyTimeSpent" value="111373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57112527" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
@@ -757,15 +827,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40870488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2430998" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26433122" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38535032" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -779,6 +849,39 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57112527" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40870488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2430998" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38535032" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -801,20 +904,36 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mbatis-config.tld" />
-    <entry file="file://$PROJECT_DIR$/../My_mbatis/src/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/springmvc-scm" />
     <entry file="file://$PROJECT_DIR$/web/scripts/easyui/jquery.easyui.min.js" />
     <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/resources/db.propertie">
@@ -848,21 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/DeptJDAY70.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/sql/Oracle.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
@@ -870,25 +974,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/IDeptJDAY70Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,101 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/impl/DeptJDAY70Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/DeptJDAY70Mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="28" column="70" lean-forward="false" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-          <folding>
-            <marker date="1525313546430" expanded="true" signature="538:636" ph="insert into deptJDAY70... " />
-            <marker date="1525313546430" expanded="true" signature="756:803" ph="SELECT * FRO... deptJDAY70" />
-            <marker date="1525313546430" expanded="true" signature="876:900" ph="SELECT * FRO... deptJDAY70" />
-            <marker date="1525313546430" expanded="true" signature="997:1097" ph="update deptJ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/impl/SupplierDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1525314238011" expanded="true" signature="500:540" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/IAccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/ISupplierDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="68" lean-forward="false" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
-          <folding>
-            <marker date="1525314238141" expanded="true" signature="690:839" ph="insert into supplier... " />
-            <marker date="1525314238141" expanded="true" signature="961:1005" ph="SELECT * FRO... supplier" />
-            <marker date="1525314238141" expanded="true" signature="1082:1104" ph="SELECT * FRO... supplier" />
-            <marker date="1525314238141" expanded="true" signature="1199:1351" ph="update suppl... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1035,21 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="52" column="67" lean-forward="false" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/AccountMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1061,31 +1040,6 @@
             <marker date="1525339703227" expanded="true" signature="1030:1137" ph="update accou... " />
             <marker date="1525339703227" expanded="true" signature="1478:1557" ph="SELECT * FRO... account" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="52" column="95" lean-forward="false" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,10 +1083,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/redo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/goods/GoodsList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="193">
           <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/filesave.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/edit_remove.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#679#680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/DeptJDAY70.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/IAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -1145,50 +1156,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/ISupplierService.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/impl/AccountDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        <state relative-caret-position="523">
+          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/impl/DeptJDAY70Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="89">
           <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/json/SupplierDatagrid.json">
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/impl/SupplierDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/edit_remove.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/IDeptJDAY70Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/redo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/DeptJDAY70Mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <marker date="1525313546430" expanded="true" signature="538:636" ph="insert into deptJDAY70... " />
+            <marker date="1525313546430" expanded="true" signature="756:803" ph="SELECT * FRO... deptJDAY70" />
+            <marker date="1525313546430" expanded="true" signature="876:900" ph="SELECT * FRO... deptJDAY70" />
+            <marker date="1525313546430" expanded="true" signature="997:1097" ph="update deptJ... " />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/themes/icons/filesave.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/CS/JavaWeb/WebLibs/spring3.2/spring-3.2-web/spring-webmvc-3.2.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/supplier/SupplierList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="120" column="32" lean-forward="true" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/DeptJDAY70Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1525532863815" expanded="true" signature="600:640" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/service/impl/SupplierService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/ISupplierDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/controller/SupplierAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#1299#1314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/entity/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/qy/scm/dao/SupplierMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+          <folding>
+            <element signature="e#1916#1920#0" expanded="true" />
+            <marker date="1525536044375" expanded="true" signature="690:839" ph="insert into supplier... " />
+            <marker date="1525536044375" expanded="true" signature="961:1005" ph="SELECT * FRO... supplier" />
+            <marker date="1525536044375" expanded="true" signature="1082:1104" ph="SELECT * FRO... supplier" />
+            <marker date="1525536044375" expanded="true" signature="1199:1351" ph="update suppl... " />
+            <marker date="1525536044375" expanded="true" signature="1688:1915" ph="SELECT * FRO... *" />
+            <marker date="1525536044375" expanded="true" signature="1688:1944" ph="SELECT * FRO... *" />
+            <marker date="1525536044375" expanded="true" signature="1688:1958" ph="SELECT * FRO... *" />
+            <marker date="1525536044375" expanded="true" signature="1688:1970" ph="SELECT * FRO... *" />
+            <marker date="1525536044375" expanded="true" signature="1688:1972" ph="SELECT * FRO... *" />
+            <marker date="1525536044375" expanded="true" signature="1703:1915" ph="SELECT S.*, *" />
+            <marker date="1525536044375" expanded="true" signature="1730:1752" ph="select * FRO... supplier" />
+            <marker date="1525536044375" expanded="true" signature="2081:2111" ph="SELECT COUNT... supplier" />
+          </folding>
         </state>
       </provider>
     </entry>

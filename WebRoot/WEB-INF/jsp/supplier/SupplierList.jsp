@@ -16,7 +16,7 @@
 <script type="text/javascript">
     $(function () {
         $("#dg").datagrid({
-            url:'${pageContext.request.contextPath}/json/SupplierDatagrid.json',
+            url:'${pageContext.request.contextPath}/supplier/pagination.action',
             columns: columns,
 //            fitColumns : true,
             width : 800,
@@ -28,10 +28,18 @@
             selectOnCheck : true,
             frozenColumns:frozenColumns,
             pagination:true,
-            toolbar:toolbar
+            pageSize:3,
+            pageList : [3, 6, 9],
+            toolbar:toolbar,
+            queryParams:{
+                name:"%%"
+            }
 
 
         });
+
+
+
     })
 
 
@@ -39,30 +47,34 @@
 
     var columns = [[
         {
-            field : 'unitcost',
-            title : 'unitcost',
+            field : 'name',
+            title : 'name',
             align : 'right'
         },{
-            field : 'listprice',
-            title : 'Price',
-            align : 'right',
+            field : 'linkman',
+            title : 'linkman',
+            align : 'right'
 
         }, {
-            field: 'itemid',
-            title: 'itemid',
+            field: 'phone',
+            title: 'phone',
             align: 'right',
             formatter: function (value, row, index) {
                 return "<span title='" + value + "'>" + value + "</span>";
 
             }
         },{
-            field : 'attr1',
-            title : 'attr1',
+            field : 'address',
+            title : 'address',
             align : 'right',
             formatter: function (value, row, index) {
                 return "<span title='" + value + "'>" + value + "</span>";
 
             }
+        },{
+            field:"remark",
+            title:"remark",
+            align:'center'
         }
     ]];
 
@@ -71,7 +83,7 @@
             field:'ck',
             checkbox:true
         }, {
-            field: 'productid',
+            field: 'id',
             width: 100,
             title: 'id',
             formatter: function (value, row, index) {
@@ -118,17 +130,17 @@
             text: 'search',
             iconCls: 'icon-search',
             handler: function () {
-                alert('search');
+                var keywords = $("#ss").val();
+                if(keywords != undefined){
+                    $("#dg").datagrid("load",{
+                        name: keywords
+                    })
+                }
             }
         }
     ]
 
-    $('#ss').searchbox({
-        searcher : function(value, name) {
-            alert(value + "," + name);
-        },
-        prompt : '请输入供应商名称'
-    });
+
 
 </script>
 </body>

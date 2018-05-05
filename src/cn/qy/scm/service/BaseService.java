@@ -1,5 +1,8 @@
 package cn.qy.scm.service;
 
+import cn.qy.scm.entity.Pagination;
+import cn.qy.scm.entity.Supplier;
+
 import java.util.List;
 
 public interface BaseService<T> {
@@ -15,4 +18,6 @@ public interface BaseService<T> {
     List<T> findAll() throws Exception;
     //删除全部
     int deleteAll() throws Exception;
+
+    Pagination<T> Pagination(Pagination pagination) throws Exception;
 }
