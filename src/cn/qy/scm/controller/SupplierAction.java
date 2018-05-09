@@ -22,10 +22,15 @@ public class SupplierAction extends BaseAction{
     private ISupplierService supplierService;
 
     @RequestMapping(value = "/insertSupplier")
-    public String insert(Supplier supplier) throws Exception {
-        supplier.setId();
-        supplierService.insert(supplier);
-        return "forward:/main.jsp";
+    public @ResponseBody int insert(Supplier supplier) throws Exception {
+        int i = 0;
+        try{
+            supplier.setId();
+            supplierService.insert(supplier);
+        }catch (Exception e){
+            throw new RuntimeException(e);
+        }
+        return i;
     }
 
     @RequestMapping(value = "/pagination")

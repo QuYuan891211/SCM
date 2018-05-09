@@ -13,6 +13,7 @@
 </head>
 <body>
 <table id="dg"></table>
+<div id="insertDg"></div>
 <script type="text/javascript">
     $(function () {
         $("#dg").datagrid({
@@ -98,7 +99,12 @@
             text:'add',
             iconCls:'icon-add',
             handler : function() {
-                alert('add');
+                $("#insertDg").dialog({
+                    title:"insertSupplier",
+                    width:400,
+                    height:300,
+                    href:'${pageContext.request.contextPath}/base/pageTransitionByURL/supplier/insertSupplier.action'
+                })
             }
         },'-',{
             text:'edit',
