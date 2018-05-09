@@ -116,7 +116,36 @@
             text:'remove',
             iconCls:'icon-remove',
             handler : function() {
-                alert('remove');
+                var selectedSuppliers = $("#dg").datagrid('getSelections');
+                if(selectedSuppliers.length > 0) {
+                    var pks = new Array();
+                    for(var i=0; i <selectedSuppliers.length;i++ ){
+                        pks[i] = selectedSuppliers[i].id;
+                    }
+                    parent.$.messager.confirm('Confirm', 'Are you sure to delete these suppliers ?', function(r){
+                        if (r){
+                            $.ajax({
+                                url:"${pageContext.request.contextPath}/supplier/deleteById.action",
+                                type:"POST",
+//                                传数组且为多个参数的时候（类似["1","2"]），用传统方式，否则会被深度序列化
+                                traditional:true,
+                                data:{"pks":pks},
+                                success:function () {
+                                    $.messager.alert('success','success','info');
+                                    $("#dg").datagrid("reload");
+                                    $("#dg").datagrid("clearSelections");
+                                },
+                                error:function () {
+                                    $.messager.alert('error','please contact the admin！','error');
+                                },
+                                dataType:'json'
+                            })
+                        }
+                    });
+
+
+
+                }
             }
         },'-',{
             text:'undo',

@@ -27,8 +27,8 @@ public class DeptJDAY70Service implements IDeptJDAY70Service {
     }
 
     @Override
-    public int deleteById(DeptJDAY70 deptJDAY70) throws Exception {
-        return deptJDAY70Dao.deleteById(deptJDAY70);
+    public int deleteById(String[] pks) throws Exception {
+        return deptJDAY70Dao.deleteById(pks);
     }
 
     @Override

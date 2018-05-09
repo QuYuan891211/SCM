@@ -33,6 +33,15 @@ public class SupplierAction extends BaseAction{
         return i;
     }
 
+    @RequestMapping(value = "/deleteById")
+    public @ResponseBody int deleteById(String[] pks) throws Exception {
+        int i = 0;
+        if(pks != null && pks.length > 0){
+           i = supplierService.deleteById(pks);
+        }
+        return i;
+    }
+
     @RequestMapping(value = "/pagination")
     public @ResponseBody Map<String,Object> Pagination(Pagination<Supplier> pagination, Supplier supplier)throws Exception{
         pagination.setKeywords(supplier.getName());

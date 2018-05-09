@@ -11,7 +11,7 @@ public interface BaseService<T> {
     //根据对象主键查询
     T selectById(T t) throws Exception;
     //根据对象主键删除
-    int deleteById(T t) throws Exception;
+    int deleteById(String[] pks) throws Exception;
     //根据对象主键修改
     int updateById(T t) throws Exception;
     //查询全部

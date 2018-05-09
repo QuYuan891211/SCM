@@ -29,8 +29,15 @@
         update supplier set sup_name = #{name}, sup_phone = #{phoneNum},sup_linkman = #{linkman},sup_address=#{remark},sup_remark=#{remark}  WHERE sup_id =#{id}
     </update>
 
-    <delete id="deleteById" parameterType="cn.qy.scm.entity.Supplier">
-        DELETE * FROM supplier WHERE sup_id =#{id}
+
+    <!--1. 如果传入的是单参数且参数类型是一个List的时候，collection属性值为list-->
+    <!--2. 如果传入的是单参数且参数类型是一个array数组的时候，collection的属性值为array-->
+    <!--3. 如果传入的参数是多个的时候，我们就需要把它们封装成一个Map了，当然单参数也可-->
+    <delete id="deleteById">
+        DELETE FROM supplier WHERE sup_id IN
+        <foreach collection="array" open="(" close=")" separator="," item="pk">
+            #{pk}
+        </foreach>
     </delete>
 
     <delete id="deleteAll">

@@ -30,8 +30,8 @@ public class SupplierService implements ISupplierService {
     }
 
     @Override
-    public int deleteById(Supplier supplier) throws Exception {
-        return supplierDao.deleteById(supplier);
+    public int deleteById(String[] pks) throws Exception {
+        return supplierDao.deleteById(pks);
     }
 
     @Override

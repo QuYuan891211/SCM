@@ -32,8 +32,8 @@ public class AccountService implements IAccountService {
     }
 
     @Override
-    public int deleteById(Account account) throws Exception {
-        return accountDao.deleteById(account);
+    public int deleteById(String[] pks) throws Exception {
+        return accountDao.deleteById(pks);
     }
 
     @Override
