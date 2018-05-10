@@ -14,6 +14,7 @@
 <body>
 <table id="dg"></table>
 <div id="insertDg"></div>
+<div id="updateDg"></div>
 <script type="text/javascript">
     $(function () {
         $("#dg").datagrid({
@@ -110,7 +111,21 @@
             text:'edit',
             iconCls:'icon-edit',
             handler : function() {
-                alert('edit');
+                var selectedSuppliers = $("#dg").datagrid('getSelections');
+                if(selectedSuppliers.length != 1){
+                    $.messager.alert('warning','please select single row','warning');
+
+                }else {
+                    <%--$("#updateDg").dialog({--%>
+                        <%--title:'updateSupplier',--%>
+                        <%--width:400,--%>
+                        <%--height:300,--%>
+                        <%--href:'${pageContext.request.contextPath}/base/pageTransitionByURL/supplier/updateSupplier.action'--%>
+                    <%--})--%>
+                    window.open ( "${pageContext.request.contextPath}/base/pageTransitionByURL/supplier/updateSupplier.action" , "_blank" ,
+                        "height=300,width=500,scrollbars=no,location=no" )
+
+                }
             }
         },'-',{
             text:'remove',
@@ -177,6 +192,10 @@
 
 
 
+
+function getSelected() {
+    return $("#dg").datagrid('getSelections');
+}
 </script>
 </body>
 </html>

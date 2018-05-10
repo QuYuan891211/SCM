@@ -27,7 +27,10 @@ public class Supplier {
         return id;
     }
 
-    public void setId() {
+    public void setId(String id) {
+        this.id = id;
+    }
+    public void setUUID(){
         this.id = UUID.randomUUID().toString();
     }
 

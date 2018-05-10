@@ -25,7 +25,7 @@ public class SupplierAction extends BaseAction{
     public @ResponseBody int insert(Supplier supplier) throws Exception {
         int i = 0;
         try{
-            supplier.setId();
+            supplier.setUUID();
             supplierService.insert(supplier);
         }catch (Exception e){
             throw new RuntimeException(e);
@@ -39,6 +39,22 @@ public class SupplierAction extends BaseAction{
         if(pks != null && pks.length > 0){
            i = supplierService.deleteById(pks);
         }
+        return i;
+    }
+
+
+    @RequestMapping(value="/updateById")
+    public @ResponseBody int updateById(Supplier supplier){
+        int i = 0;
+        if (supplier != null && supplier.getId() != null){
+            try {
+             i= supplierService.updateById(supplier);
+            }catch (Exception e){
+               e.printStackTrace();
+            }
+
+        }
+
         return i;
     }
 

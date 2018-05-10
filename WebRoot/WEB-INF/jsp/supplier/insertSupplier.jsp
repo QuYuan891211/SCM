@@ -56,7 +56,7 @@
                 success:function (count) {
                     $.messager.alert('message','success','info')
                     $("#insertDg").dialog('close');
-                    $("#dg").datagrid('reload');
+                    window.opener.$("#dg").datagrid('reload');
                 }
             });
             }
