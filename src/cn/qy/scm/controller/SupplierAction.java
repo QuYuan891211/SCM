@@ -1,17 +1,13 @@
 package cn.qy.scm.controller;
 
-import cn.qy.scm.entity.Account;
 import cn.qy.scm.entity.Pagination;
 import cn.qy.scm.entity.Supplier;
-import cn.qy.scm.service.IAccountService;
 import cn.qy.scm.service.ISupplierService;
-import org.codehaus.jackson.map.Serializers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 

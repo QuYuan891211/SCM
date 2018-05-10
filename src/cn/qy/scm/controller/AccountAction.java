@@ -1,10 +1,7 @@
 package cn.qy.scm.controller;
 
 import cn.qy.scm.entity.Account;
-import cn.qy.scm.entity.DeptJDAY70;
 import cn.qy.scm.service.IAccountService;
-import cn.qy.scm.service.IDeptJDAY70Service;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
