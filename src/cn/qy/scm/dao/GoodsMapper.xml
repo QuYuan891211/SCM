@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.qy.scm.dao.IGoodsDao">
+
+    <resultMap id="goodsMap" type="cn.qy.scm.entity.Goods">
+        <id column="goods_Id" property="goodsId" jdbcType="VARCHAR" />
+        <result column="goods_name" property="goodsName" jdbcType="VARCHAR" />
+        <result column="goods_unit" property="goodsUnit" jdbcType="VARCHAR" />
+        <result column="goods_type" property="goodsType" jdbcType="VARCHAR" />
+        <result column="goods_color" property="goodsColor" jdbcType="VARCHAR" />
+        <result column="goods_store" property="goodsStore" jdbcType="INTEGER" />
+        <result column="goods_limit" property="goodsLimit" jdbcType="INTEGER" />
+        <result column="goods_commission" property="goodsCommission" jdbcType="DECIMAL" />
+        <result column="goods_producer" property="goodsProducer" jdbcType="VARCHAR" />
+        <result column="goods_remark" property="goodsRemark" jdbcType="VARCHAR" />
+        <result column="goods_sel_price" property="goodsSelPrice" jdbcType="DECIMAL" />
+        <result column="goods_buy_price" property="goodsBuyPrice" jdbcType="DECIMAL" />
+    </resultMap>
+
+    <select id="pagination" parameterType="cn.qy.scm.entity.Pagination" resultMap="goodsMap">
+        SELECT * FROM (SELECT G.*, ROWNUM R FROM (select * FROM goods
+            <where>
+                <if test="keywords != null">
+                    and goods_name LIKE #{keywords}
+                </if>
+            </where>
+        ) G WHERE ROWNUM &lt;= #{startNext} + #{rows} ) WHERE R >= #{startNext}+1
+    </select>
+
+    <select id="count" parameterType="cn.qy.scm.entity.Pagination"  resultType="int">
+        SELECT COUNT(1) FROM goods
+        <where>
+            <if test="keywords != null">
+                and goods_name LIKE #{keywords}
+            </if>
+        </where>
+    </select>
+</mapper>

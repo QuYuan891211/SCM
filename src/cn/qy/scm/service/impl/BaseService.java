@@ -1,9 +1,6 @@
 package cn.qy.scm.service.impl;
 
-import cn.qy.scm.dao.BaseDao;
-import cn.qy.scm.dao.IAccountDao;
-import cn.qy.scm.dao.IDeptJDAY70Dao;
-import cn.qy.scm.dao.ISupplierDao;
+import cn.qy.scm.dao.*;
 import cn.qy.scm.entity.Pagination;
 import cn.qy.scm.service.IBaseService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,18 +19,22 @@ public class BaseService<T> implements IBaseService<T> {
     @Autowired
     protected ISupplierDao supplierDao;
 
+    @Autowired
+    protected IGoodsDao goodsDao;
+
     protected BaseDao<T> baseDao;
 
 
     @PostConstruct
     private void initBaseMapper() throws Exception{
-        Class baseClass = this.getClass().getSuperclass();
+        //目的：需要把让父类对象由子类实例化 即BaseDao baseDao = new SupplierDao();or BaseDao baseDao = new AccountDao()
+        //但此时不需要new， SPRING容器中已经存在Mapper代理实现实现类的，需要把这个实现类的对象赋过去
+        //1.获取BaseService的泛型参数
         ParameterizedType parameterizedType = (ParameterizedType) this.getClass().getGenericSuperclass();
-        Class entityClass = (Class)parameterizedType.getActualTypeArguments()[0];
-        String daoName = entityClass.getSimpleName().substring(0,1).toLowerCase() + entityClass.getSimpleName().substring(1) + "Dao";
-
-        Field field = baseClass.getDeclaredField(daoName);
-        Field baseField = baseClass.getDeclaredField("baseDao");
+        Class entityClass  = (Class) parameterizedType.getActualTypeArguments()[0];
+        String childDaoName = entityClass.getSimpleName().substring(0,1).toLowerCase() + entityClass.getSimpleName().substring(1) + "Dao";
+        Field field = this.getClass().getSuperclass().getDeclaredField(childDaoName);
+        Field baseField = this.getClass().getSuperclass().getDeclaredField("baseDao");
         baseField.set(this,field.get(this));
 
     }

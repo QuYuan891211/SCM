@@ -30,7 +30,16 @@
                     </li>
                 </ul>
             </div>
-            <div title="Title3">content3</div>
+            <div title="Purchase">
+                <ul style="padding: 0px;margin:0px;">
+                    <li style="padding: 6px;"><a href="${pageContext.request.contextPath}/base//pageTransitionByURL/purchase/order.action" title="Purchase"
+                                                 style="text-decoration: none;display: block;font-weight:bold;">Purchase</a>
+                    </li>
+                    <li style="padding: 6px;"><a href="${pageContext.request.contextPath}/base//pageTransitionByURL/goods/GoodsList.action" title="GoodsManager"
+                                                 style="text-decoration: none;display: block;font-weight:bold;">GoodsManager</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div id="centerArea" data-options="region:'center',title:'main',split:true" style="padding: 5px;background: #00ee00">

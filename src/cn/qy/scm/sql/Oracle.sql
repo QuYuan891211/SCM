@@ -40,6 +40,46 @@ create table supplier
    sup_address          varchar(100),
    sup_remark           varchar(200)
 );
+/*==============================================================*/
+/* Table: 产品表	                                        */
+/*==============================================================*/
+create table goods
+(
+   goods_Id             varchar(36) PRIMARY KEY ,
+   goods_name           varchar(20),
+   goods_unit           varchar(10),
+   goods_type           varchar(10),
+   goods_color          varchar(10),
+   goods_store          NUMBER (20),
+   goods_limit          NUMBER (10),
+   goods_commission     NUMBER (2,2),
+   goods_producer       varchar(50),
+   goods_remark         varchar(100),
+   goods_sel_price      NUMBER (12,2),
+   goods_buy_price      NUMBER (12,2)
+);
+
+-- 添加商品信息
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('1','note4','g','1','red note4',2500.00,2000.00);
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('2','note5','gg','5','red note5',3500.00,3000.00);
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('3','note6','g','6','blue note5',4500.00,4000.00);
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('4','note4','g','1','red note4',2500.00,2000.00);
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('5','note5','g','5','red note5',3500.00,3000.00);
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('6','note6','g','6','blue note5',4500.00,4000.00);
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('7','note4','g','1','red note4',2500.00,2000.00);
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('8','note5','g','5','red note5',3500.00,3000.00);
+insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
+values('9','note6','g','6','blue note5',4500.00,4000.00);
+
+
 /* 添加供应商数据, */
 insert into account (acc_id,acc_login,acc_pass) values ('23323','admin','admin');
 insert into account (acc_id,acc_login,acc_pass) values ('23324','admin2','admin2');
