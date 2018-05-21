@@ -1,0 +1,17 @@
+
+<mapper namespace="cn.qy.scm.dao.IBuyOrderDetailDao">
+
+    <resultMap type="cn.qy.scm.entity.BuyOrderDetail" id="buyOrderDetailMapper">
+        <id column="bod_id" property="bodId" jdbcType="VARCHAR" />
+        <result column="goods_id" property="goodsId" jdbcType="VARCHAR" />
+        <result column="goods_name" property="goodsName" jdbcType="VARCHAR" />
+        <result column="goods_unit" property="goodsUnit" jdbcType="VARCHAR" />
+        <result column="goods_type" property="goodsType" jdbcType="VARCHAR" />
+        <result column="goods_color" property="goodsColor" jdbcType="VARCHAR" />
+        <result column="bod_amount" property="bodAmount" jdbcType="INTEGER" />
+        <result column="bod_buy_price" property="bodBuyPrice" jdbcType="DECIMAL" />
+        <result column="bod_total_price" property="bodTotalPrice" jdbcType="DECIMAL" />
+        <result column="bod_imei_list" property="bodImeiList" jdbcType="LONGVARCHAR" />
+        <result column="bo_id" property="boId" jdbcType="VARCHAR" />
+    </resultMap>
+</mapper>

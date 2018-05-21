@@ -58,6 +58,100 @@ create table goods
    goods_sel_price      NUMBER (12,2),
    goods_buy_price      NUMBER (12,2)
 );
+/*==============================================================*/
+/* Table: buy_order
+单号     	bo_id，
+供货商  	sup_id，
+仓库      	sh_id，
+收货日期  	bo_date，
+应付（实付+欠款+优惠）bo_payable，
+实付      	bo_paid，
+欠款		bo_Arrears，
+原始单号	bo_original_id，
+备注		bo_remark，
+经办人		bo_attn，
+操作员		operator
+
+                                           */
+/*==============================================================*/
+create table buy_Order
+(
+   bo_id                varchar(36) PRIMARY KEY ,
+   sup_id                NUMBER (30),
+   sh_id                varchar(10),
+   bo_date              Date,
+   bo_payable           NUMBER (12,2),
+   bo_paid              NUMBER(12,2),
+   bo_arrears           NUMBER(12,2),
+   bo_original          varchar(20),
+   bo_remark            varchar(100),
+   bo_attn              varchar(20),
+   bo_operator          NUMBER (30)
+);
+
+/*==============================================================*/
+/* Table: buy_order_detail
+编号		bod_id：
+商品ID	goods_id，备用
+ goods_name           varchar(20),
+   goods_type           varchar(10),
+   goods_color          varchar(10),
+单位		goods_unit，
+数量 		bod_amount，
+进价		bod_buy_price，
+总金额（可无）bod_total_price，
+ 采购单号	bo_id，
+手机串号列表（##分隔）bod_IMEI_list
+                                 */
+/*==============================================================*/
+create table buy_order_detail
+(
+   bod_id               varchar(36) PRIMARY KEY,
+   goods_id             varchar(36),
+   goods_name           varchar(20),
+   goods_unit           varchar(10),
+   goods_type           varchar(10),
+   goods_color          varchar(10),
+   bod_amount           NUMBER (30),
+   bod_buy_price        decimal(12,2),
+   bod_total_price     decimal(12,2),
+   bo_id                varchar(36),
+   bod_imei_list        varchar(100)
+);
+
+/*==============================================================*/
+/* Table: account_records
+编号		ar_id,
+供货商编号	sup_id，
+日期		ar_date，
+单号(不同类型单号不一样）ad_order_id，
+类型(业务类型）ar_bus_type，
+应付		ar_payable，
+实付		ar_paid，
+欠款		ar_arrears，
+优惠金额	ar_discount，
+经办人		ar_attn，
+操作员		ar_operator。
+备注		ar_remark
+                                    */
+/*==============================================================*/
+create table account_records
+(
+   ar_id                varchar(36) PRIMARY KEY ,
+   sup_id               NUMBER (30),
+   ar_date              date,
+   ar_order_id          varchar(36),
+   ar_bus_type          varchar(10),
+   ar_payable           NUMBER(12,2),
+   ar_paid              NUMBER(12,2),
+   ar_arrears           NUMBER(12,2),
+   ar_discount          NUMBER(12,2),
+   ar_attn              varchar(20),
+   ar_operator          NUMBER (30),
+   ar_remark            varchar(100)
+);
+
+
 
 -- 添加商品信息
 insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
