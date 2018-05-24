@@ -17,7 +17,7 @@
         <result column="bo_attn" property="boAttn" jdbcType="VARCHAR" />
         <result column="bo_operator" property="boOperator" jdbcType="INTEGER" />
     </resultMap>
-<insert id="insert" parameterType="buyOrderMapper">
+<insert id="insert" parameterType="cn.qy.scm.entity.BuyOrder">
     insert into buy_Order(bo_id,sup_id,sh_id,bo_date,bo_payable,bo_paid,bo_arrears,bo_original,bo_remark,bo_attn,bo_operator) VALUES (#{boId,jdbcType=VARCHAR}, #{supId,jdbcType=INTEGER}, #{shId,jdbcType=VARCHAR},
       #{boDate,jdbcType=DATE}, #{boPayable,jdbcType=DECIMAL}, #{boPaid,jdbcType=DECIMAL},
       #{boArrears,jdbcType=DECIMAL}, #{boOriginal,jdbcType=VARCHAR}, #{boRemark,jdbcType=VARCHAR},

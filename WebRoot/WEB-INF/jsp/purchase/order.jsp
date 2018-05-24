@@ -35,7 +35,14 @@
             handler:function () {
 
             }
-        }];
+        },'-',{
+            text:'save',
+            iconCls:'icon-add',
+            handler:function () {
+                formSubmit();
+            }
+        }
+        ];
 
 
 
@@ -82,8 +89,25 @@
             align : 'right'
         }  ] ]
 
-
+    function formSubmit() {
+        var rows = $("#shoppingCart").datagrid('getRows');
+        console.info(rows);
+        rows = JSON.stringify(rows);
+        console.info(rows);
+        $("#ff").form('submit',{
+            url:'${pageContext.request.contextPath}/buyOrder/insertBuyOrder.action',
+            onSubmit:function (param) {
+                param.rows = rows;
+                return true;
+            },
+            success:function (data) {
+                alert(data)
+            }
+        });
+    }
     </script>
+
+
 </head>
 <body>
 <%--<form style="padding:15px;margin:0px;background:#eee;" id="ff" action="">--%>
@@ -101,6 +125,22 @@
     <%--Operator：<input type="text" id="boOperator" name="boOperator"/>--%>
     <%--Remark：<input type="text" id="boRemark" name="boRemark"/>--%>
 <%--</form>--%>
+<form style="padding:15px;margin:0px;background:#eee;" id="ff" action="">
+    input order information：<br>
+    supName<input type="hidden" id="supId" name="supId"/>
+    <input type="text" id="supName" name="supName"/>
+    shId<input type="text" id="shId" name="shId"/>
+    boDate<input  type="text" id="boDate"
+               class="easyui-datebox" name="boDate" required="required"></input>
+
+    boPayable<input type="text" id="boPayable" name="boPayable"/><br>
+    boPaid<input type="text" id="boPaid" name="boPaid"/>
+    boArrears<input type="text" id="boArrears" name="boArrears"/>
+    boOriginal<input type="text" id="boOriginal" name="boOriginal"/><br>
+    boAttn<input type="text" id="boAttn" name="boAttn"/>
+    boOperator<input type="text" id="boOperator" name="boOperator"/>
+    boRemark<input type="text" id="boRemark" name="boRemark"/>
+</form>
     <table id="shoppingCart"></table>
 
 

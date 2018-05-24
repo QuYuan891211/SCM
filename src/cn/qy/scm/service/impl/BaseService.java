@@ -17,7 +17,8 @@ public class BaseService<T> implements IBaseService<T> {
     @Autowired
     protected IBuyOrderDao buyOrderDao;
 
-
+    @Autowired
+    protected IBuyOrderDetailDao buyOrderDetailDao;
     @Autowired
     protected IAccountDao accountDao;
     @Autowired

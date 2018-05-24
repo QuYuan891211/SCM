@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="cn.qy.scm.dao.IBuyOrderDetailDao">
 
@@ -14,4 +17,18 @@
         <result column="bod_imei_list" property="bodImeiList" jdbcType="LONGVARCHAR" />
         <result column="bo_id" property="boId" jdbcType="VARCHAR" />
     </resultMap>
+<insert id="insertList">
+    insert into buy_order_detail (bod_id, goods_id, goods_name,
+      goods_unit, goods_type, goods_color,
+      bod_amount, bod_buy_price, bod_total_price,
+      bo_id, bod_imei_list)
+    values
+    <foreach collection="list" open="(" close=")" separator="," item="item">
+        (#{item.bodId,jdbcType=VARCHAR}, #{item.goodsId,jdbcType=VARCHAR}, #{item.goodsName,jdbcType=VARCHAR},
+        #{item.goodsUnit,jdbcType=VARCHAR}, #{item.goodsType,jdbcType=VARCHAR}, #{item.goodsColor,jdbcType=VARCHAR},
+        #{item.bodAmount,jdbcType=INTEGER}, #{item.bodBuyPrice,jdbcType=DECIMAL}, #{item.bodTotalPrice,jdbcType=DECIMAL},
+        #{item.boId,jdbcType=VARCHAR}, #{item.bodImeiList,jdbcType=LONGVARCHAR})
+
+    </foreach>
+</insert>
 </mapper>
