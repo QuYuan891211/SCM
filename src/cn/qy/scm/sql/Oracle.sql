@@ -167,25 +167,51 @@ create table sys_param
    primary key (sys_param_id)
 );
 */
-create table sys_param
+create table sysParam
 (
-   sys_param_id         number(100)  PRIMARY KEY ,
+   sys_param_id         number(37)  PRIMARY KEY ,
    sys_param_field      varchar(50),
    sys_param_value      varchar(500),
    sys_param_text       varchar(50),
-   sys_param_type       varchar(2),
-
+   sys_param_type       varchar(2)
 );
-insert into sys_param(sys_param_field,sys_param_value,sys_param_type) values('shId','select s.sh_id as sys_param_value,s.sh_name as sys_param_text from store_house s','1');
+
+/*==============================================================*/
+/* Table: store_house                                           */
+/*
+   sh_id                仓库编号,
+   sh_name              仓库名称,
+   sh_responsible       责任人,
+   sh_phone             联系电话,
+   sh_address           联系地址,
+   sh_type              仓库类型,
+   sh_remark            备注,
+*/
+/*==============================================================*/
+create table storeHouse
+(
+   sh_id                varchar(10) PRIMARY KEY ,
+   sh_name              varchar(20),
+   sh_responsible       varchar(20),
+   sh_phone             varchar(11),
+   sh_address           varchar(50),
+   sh_type              varchar(10),
+   sh_remark            varchar(100)
+);
+/*添加仓库信息*/
+insert into storeHouse (sh_id,sh_name,sh_address) values('1','主仓库','广州');
+insert into storeHouse (sh_id,sh_name,sh_address) values('2','分仓库','广州');
+
+insert into sysParam(sys_param_id,sys_param_field,sys_param_value,sys_param_type) values(1,'shId','select s.sh_id as sys_param_value,s.sh_name as sys_param_text from store_house s','1');
 
 
-insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('supType','1','一级供应商');
-insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('supType','2','二级供应商');
-insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('supType','3','普通供应商');
-insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('goodsColor','1','红色');
-insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('goodsColor','2','绿色');
-insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('goodsColor','3','蓝色');
-select * from sys_param;
+insert into sysParam(sys_param_id,sys_param_field,sys_param_value,sys_param_text) values(2,'supType','1','一级供应商');
+insert into sysParam(sys_param_id,sys_param_field,sys_param_value,sys_param_text) values(3,'supType','2','二级供应商');
+insert into sysParam(sys_param_id,sys_param_field,sys_param_value,sys_param_text) values(4,'supType','3','普通供应商');
+insert into sysParam(sys_param_id,sys_param_field,sys_param_value,sys_param_text) values(5,'goodsColor','1','红色');
+insert into sysParam(sys_param_id,sys_param_field,sys_param_value,sys_param_text) values(6,'goodsColor','2','绿色');
+insert into sysParam(sys_param_id,sys_param_field,sys_param_value,sys_param_text) values(7,'goodsColor','3','蓝色');
+select * from sysParam;
 
 
 

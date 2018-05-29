@@ -27,6 +27,9 @@ public class BaseService<T> implements IBaseService<T> {
     @Autowired
     protected IGoodsDao goodsDao;
 
+    @Autowired
+    protected ISysParamDao sysParamDao;
+
     protected BaseDao<T> baseDao;
 
 
