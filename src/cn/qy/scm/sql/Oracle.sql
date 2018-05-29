@@ -152,6 +152,43 @@ create table account_records
 );
 
 
+/*====================================系统参数表==============================*/
+/*==============================================================*/
+/* Table: sys_param                                             */
+/*==============================================================*/
+/*
+create table sys_param
+(
+   sys_param_id         bigint  auto_increment,
+   sys_param_field      varchar(50),
+   sys_param_value      varchar(50),
+   sys_param_text       varchar(50),
+   sys_param_type       varchar(2),
+   primary key (sys_param_id)
+);
+*/
+create table sys_param
+(
+   sys_param_id         number(100)  PRIMARY KEY ,
+   sys_param_field      varchar(50),
+   sys_param_value      varchar(500),
+   sys_param_text       varchar(50),
+   sys_param_type       varchar(2),
+
+);
+insert into sys_param(sys_param_field,sys_param_value,sys_param_type) values('shId','select s.sh_id as sys_param_value,s.sh_name as sys_param_text from store_house s','1');
+
+
+insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('supType','1','一级供应商');
+insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('supType','2','二级供应商');
+insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('supType','3','普通供应商');
+insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('goodsColor','1','红色');
+insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('goodsColor','2','绿色');
+insert into sys_param(sys_param_field,sys_param_value,sys_param_text) values('goodsColor','3','蓝色');
+select * from sys_param;
+
+
+
 
 -- 添加商品信息
 insert into goods (goods_Id,goods_name,goods_unit,goods_color,goods_remark,goods_sel_price,goods_buy_price)
